@@ -821,7 +821,7 @@ Assistant (you): { "tool_call": { "id": "pending", "type": "function", "function
         <div className="border p-4">
           <div className="text-red-700 font-medium">Error: {err.message}</div>
           <a
-            href="https://github.com/bklieger-groq/stockbot-on-groq/issues"
+            href="https://github.com/Ashutosh102/stockbot-powered-by-groq/issues"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center text-sm text-red-800 hover:text-red-900"
