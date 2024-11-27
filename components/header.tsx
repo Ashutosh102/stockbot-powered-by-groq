@@ -15,20 +15,18 @@ import { Session } from '@/lib/types'
 async function UserOrLogin() {
   return (
     <>
-      <Link href="https://wow.groq.com/groq-labs/" rel="nofollow">
+      <Link href="https://gotofinbot.vercel.app/" rel="nofollow">
         {/* <IconGroq className="size-6 mr-2 dark:hidden" />
           <IconGroq className="hidden size-6 mr-2 dark:block" /> */}
         <Image
-          src="/groqlabs-logo-black.png"
-          alt="GroqLabs Logo"
+          src="/finbot-logo-black.png"
+          alt="FinBot Logo"
           width={100}
           height={30}
         />
       </Link>
 
       <div className="flex items-center font-semibold">
-        <IconSeparator className="size-6 text-muted-foreground/50" />
-        <a href="/new">FinBot</a>
         <IconSeparator className="size-6 text-muted-foreground/50" />
         <a
           href="/new"
